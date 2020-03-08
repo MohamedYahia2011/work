@@ -6,11 +6,35 @@ header{
   background-color: #acc;
   opacity: 80%;
   text-align: center;
-  padding: 10px 0px;
-  border-bottom: 2px solid #aaa;
+  padding: 0px;
+  border-bottom: 3px solid #aaa;
 }
 .headers{
   font-size: 30px;
+}
+.buttons ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.buttons ul li{
+  float: left;
+  margin: 0px;
+}
+.buttons li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.buttons li a:hover {
+  background-color: #111;
+}
+.buttons li a:active {
+  background-color: red;
 }
 #gon{
   width: 300px;
@@ -94,6 +118,6 @@ footer{
 }
 @media (max-width: 799px){
   main {
-    
+
   }
 }
